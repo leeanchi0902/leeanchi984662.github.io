@@ -1,0 +1,47 @@
+<html>
+  <!--李安棋的個人網站-->
+  <head>
+    <title>03李安棋-form</title>
+  </head>
+  <body bgcolor=#E6CAFF>
+  <form name="餐廳滿意度調查表" action="" method="get">
+     <h1>餐廳滿意度調查表-03李安棋</h1>
+     <table width="100%" border="0">
+         <tr>
+           <td> <b>姓　　名：</b> <input name="name" type="text"> </td>
+           <td> <b>電　　話：</b> <input name="TEL" type="text"> </td>
+         </tr>
+         <tr>
+           <td> <b>消費日期：</b> <input name="BD" type="date"> </td>
+           <td> <b>請問今年您蒞臨本店的次數：</b>
+             <select>
+               <option value = "1">初次來到</option>
+               <option value = "2-5">2 次 ~ 5 次</option>
+               <option value = "6-10">6 次 ~ 10 次</option>
+               <option value = "11">11 次以上</option>
+             </select>
+            </td>
+         </tr>
+         <tr>
+             <td> <b>今日主餐是？</b> <br/>
+               <input name="FOOD" type="radio" value="牛排"><b>時蔬肋眼牛排</b> <br/>
+               <input name="FOOD" type="radio" value="鴨胸"><b>香橙煎鴨胸</b> <br/>
+               <input name="FOOD" type="radio" value="雞腿"><b>義式炙燒雞腿</b> <br/>
+               <input name="FOOD" type="radio" value="鮭魚"><b>香煎挪威鮭魚</b> <br/>
+             </td> 
+
+             <td> <b>從何得知本店？</b><br/>
+               <input name="AD" type="checkbox" value="FB"> <b>Facebook</b> <br/>
+               <input name="AD" type="checkbox" value="IG"> <b>Instagram</b> <br/>
+               <input name="AD" type="checkbox" value="親友"> <b>親友推薦</b> <br/>
+               <input name="AD" type="checkbox" value="APP"> <b>美食APP介紹</b> <br/>
+             </td>    
+         </tr> 
+     </table>
+       <p> <b>對於今日餐點及服務有何建議：</b>
+       <textarea name="propose" cols="50" rows="5" type="text"> </textarea> 
+       <p> <input name="send" type="submit" value="送出">
+           <input name="reset" type="reset"value="重設">  
+    </form>
+  </body>
+</html>
